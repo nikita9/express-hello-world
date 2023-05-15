@@ -8,6 +8,17 @@
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+    "dependencies": {
+    "fastify": "^4.17.0",
+    "handlebars": "^4.7.7",
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/static": "^6.10.1",
+    "@fastify/view": "^7.4.1",
+    "multer": "^1.4.4",
+    "express": "^4.18.2",
+    "telegraf": "^4.12.2",
+    "pm2": "^5.3.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cyclic-software/express-hello-world.git"
